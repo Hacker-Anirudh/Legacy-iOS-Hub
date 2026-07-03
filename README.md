@@ -22,6 +22,7 @@ There is no build step, as the website is pure HTML and CSS. To contribute, edit
 ```
 
 ## Features
+
 - Install updated root certificates (from <tlsroot.litten.ca>)
 - Add Cydia repositories with one click
 - Links to some of the websites that still work on older iOS versions
@@ -29,5 +30,11 @@ There is no build step, as the website is pure HTML and CSS. To contribute, edit
 - Download a vast collection of modern Apple wallpapers (if you would like to see any more, again: [thenasaplusit@proton.me](mailto:thenasaplusit@proton.me))
 
 ## Compatibility
+
 I tested down to iOS 6.1.3. It will likely work on older versions (there is barely anything to be incompatible with, most likely even [Mosaic browser](https://en.wikipedia.org/wiki/NCSA_Mosaic) could load the HTTP page), but I can not confirm those. Please inform me if you find any incompatibility with older versions.
 It is meant to be used on iOS 11 and earlier given those have the most difficulty with modern websites, but will work on newer versions (obviously).
+
+## Credits
+
+- Wallpapers: <https://www.idownloadblog.com/>
+- Certificate bundles: <https://tlsroot.litten.ca>
