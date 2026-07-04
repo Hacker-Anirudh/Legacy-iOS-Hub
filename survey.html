@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Legacy-iOS-Hub: Survey</title>
+</head>
+
+
+<body>
+    <h2>Please fill in these details. They will be used to decide what to prioritize during development.</h2>
+    <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLSetbcUxpZXDwHYYvrCVymVjqZu7K1FRKISE0AVNwgYJBTQPGw/formResponse"
+        method="POST" target="hidden_iframe">
+        <label for="model">iPhone Model:</label><br>
+        <input type="text" id="model" name="entry.402875006" placeholder="e.g. A1387" required><br><br>
+        <label for="ios">iOS version:</label><br>
+        <select id="ios_version" name="entry.1696785117" required>
+            <option value="">-- Select --</option>
+            <option value="iOS 4 or earlier">iOS 4 or earlier</option>
+            <option value="iOS 5">iOS 5</option>
+            <option value="iOS 6">iOS 6</option>
+            <option value="iOS 7">iOS 7</option>
+            <option value="iOS 8">iOS 8</option>
+            <option value="iOS 9">iOS 9</option>
+            <option value="iOS 10">iOS 10</option>
+            <option value="iOS 11">iOS 11</option>
+            <option value="iOS 12 or later">iOS 12 or later</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+</body>
+
+</html>
