@@ -44,3 +44,10 @@ It is meant to be used on iOS 11 and earlier given those have the most difficult
 I did not make the certificate bundles, but it is worth mentioning you should be cautious with any root certificates you find on the internet. That being said, I have verified them and this site uses HTTPS for iOS 7+, so they should, in theory, be good. If you trust me, that is - at the end of the day that is your call to make.
 
 This website provides IPAs of apps that were once available on the App Store and were free. Any use of any tools provided here to engage in piracy is not sanctioned - it's wrong. Intellectual property exists for a reason. If you do something illegal (in your jurisdiction), the consequences are yours and yours only.
+
+## Licensing
+
+Copyright (C) 2020-2026 Anirudh Menon
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
