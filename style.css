@@ -5,14 +5,14 @@ body {
 }
 
 a {
-    color: #FFFFFF;
+    color: royalblue;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #F5F5F5;
+    color: royalblue;
 }
 
 a:visited {
-    color: #E0E0E0;
+    color: navy;
 }
