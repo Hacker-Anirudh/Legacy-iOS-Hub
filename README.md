@@ -38,7 +38,6 @@ It is meant to be used on iOS 11 and earlier given those have the most difficult
 
 - Wallpapers: <https://www.idownloadblog.com/>
 - Certificate bundles: <https://tlsroot.litten.ca>
-- Plists: Claude Sonnet 5
 
 ## Disclaimers
 
