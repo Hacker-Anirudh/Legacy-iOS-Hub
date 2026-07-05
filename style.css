@@ -30,3 +30,9 @@ a:hover {
 a:visited {
     color: navy;
 }
+
+.back-button {
+    display: inline-block;
+    margin: 10px 0;
+    color: #D75D5D;
+}
