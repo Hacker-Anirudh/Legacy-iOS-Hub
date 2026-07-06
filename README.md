@@ -1,5 +1,11 @@
 # Legacy iOS Hub
 
+<https://ios.sudothelinuxwizard.com>
+
+or for iOS 6 and earlier
+
+<http://ios.sudothelinuxwizard.com>
+
 The one-stop shop for older iOS devices!
 
 A simple, extremely lightweight (absolutely no JavaScript) website collecting wallpapers, jailbreaks, certificates, and other legacy iOS resources.
