@@ -10,6 +10,10 @@ The one-stop shop for older iOS devices!
 
 A simple, extremely lightweight (absolutely no JavaScript) website collecting wallpapers, jailbreaks, certificates, and other legacy iOS resources.
 
+## Why is this needed?
+
+Well, while a lot can be done by connecting the device to a computer, certain tasks (such as installing root certificates) must be done from the device. You may also not have access to/want to use a computer sometimes. In those cases, doing anything typically becomes odious because of the outdated browser. By aggregating most of the needed functionality on one universally compatible website, Legacy iOS Hub hopes to alleviate those issues.
+
 ## Known issues
 
 - GitHub Pages uses TLS 1.2. Devices running iOS 6 and earlier will need to use the HTTP website because those devices only support older TLS versions.
@@ -20,11 +24,11 @@ There is no build step, as the website is pure HTML and CSS. To contribute, edit
 
 ### Adding wallpapers
 
-1. Put the image file into the appropriate `wallpapers/<collection>/` folder (create a new folder for a new collection).
+1. Put the image file into the appropriate `wallpapers/<collection>/` folder (create a new folder for a new collection). Also add a thumbnail to the folder's thumbs/ subfolder.
 2. Add a thumbnail entry to that collection's `index.html`. Use a code block for the HTML example so the tags are preserved:
 
 ```html
-<a href="[filename]"><img src="[filename]" alt="[alt name]"></a>
+<a href="[filename]"><img src="[thumb-filename]" alt="[alt name]"></a>
 ```
 
 ## Features
@@ -32,6 +36,8 @@ There is no build step, as the website is pure HTML and CSS. To contribute, edit
 - Install updated root certificates (from <tlsroot.litten.ca>)
 - Add Cydia repositories with one click
 - Links to some of the websites that still work on older iOS versions
+- ~~Install IPAs using AppSync~~ currently impossible due to limitation with GitHub Pages
+- A small collection of my recommended tweaks
 - A limited collection of web-based jailbreaks (if you have anymore please contact me at [thenasaplusit@proton.me](mailto:thenasaplusit@proton.me))
 - Download a vast collection of modern Apple wallpapers (if you would like to see any more, again: [thenasaplusit@proton.me](mailto:thenasaplusit@proton.me))
 
