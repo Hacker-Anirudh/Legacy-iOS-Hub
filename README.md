@@ -17,6 +17,7 @@ Well, while a lot can be done by connecting the device to a computer, certain ta
 ## Known issues
 
 - GitHub Pages uses TLS 1.2. Devices running iOS 6 and earlier will need to use the HTTP website because those devices only support older TLS versions.
+- Cydia links will not work on anything but a jailbroken iOS device (this is every link with a "cydia://" at the start). This is not a bug, and a fallback cannot be added as that would require JavaScript, which I want to avoid.
 
 ## Build guide
 
